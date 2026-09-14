@@ -1,0 +1,8 @@
+# DLL 只隨 GitHub Releases 發布，不進 git（版本綁定二進位，避免歷史膨脹）
+*.dll
+*.zip
+# 工作暫存
+*.log
+*.tmp
+Thumbs.db
+Desktop.ini

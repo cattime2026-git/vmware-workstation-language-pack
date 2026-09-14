@@ -1,0 +1,31 @@
+VMware Workstation 中文化語言包・安裝說明（繁體中文 / 简体中文）
+
+【步驟】
+1. 解壓本 zip，會得到 zh_TW 資料夾（含 3 個語言檔）與本說明。
+   把 zh_TW 整個資料夾複製進 VMware Workstation 安裝目錄下的
+   messages 資料夾內（建議先備份原有同名檔案）。
+   此步不用關閉 Workstation，也不用重啟。
+2. 在 Workstation 捷徑按右鍵 > 內容，在「目標」最後空一格加上：
+     --locale <語系>
+   範例（繁體中文）：
+     "C:\Program Files\VMware\VMware Workstation\vmware.exe" --locale zh_TW
+   簡體中文則用：
+     "C:\Program Files\VMware\VMware Workstation\vmware.exe" --locale zh_CN
+3. 用該捷徑啟動 Workstation，介面即為中文。
+   不加參數啟動則維持原語系，兩種用法可並存（各建一個捷徑即可）。
+
+【注意】
+- 語言包與版本綁定（本包適用版本見檔名），版本不符請勿混用。
+- 升級 Workstation 後請重新下載對應新版。
+- 若介面出現亂碼或英文殘留，代表版本不匹配，請還原備份。
+
+---
+
+安装说明（简体中文）
+1. 解压本 zip，会得到 zh_CN 文件夹（含 3 个语言文件）与本说明。
+   将 zh_CN 整个文件夹复制进安装目录下的 messages 文件夹
+   （建议先备份）。无需关闭 Workstation，无需重启。
+2. 右键 Workstation 快捷方式 > 属性，在“目标”末尾空一格加上
+   --locale zh_CN（繁体为 zh_TW），示例见上。
+3. 用该快捷方式启动即为中文；不加参数则保持原语言，可各建一个快捷方式并存。
+版本不匹配请勿混用，升级后请下载新版。
