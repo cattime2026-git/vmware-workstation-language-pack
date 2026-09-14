@@ -44,4 +44,4 @@ VMware Workstation 中文化語言包下載：繁體中文 (zh-TW) 與簡體中�
 
 ## English
 
-Chinese (Traditional `zh-TW` and Simplified `zh-CN`) language packs for VMware Workstation. Download the zip matching your build from Releases, back up the originals, copy the 3 files into the installed `messages` folder, and restart. See `NOTICE.md` for license terms.
+Chinese (Traditional `zh-TW` and Simplified `zh-CN`) language packs for VMware Workstation. Download the zip matching your build from Releases, back up the originals, copy the `zh_TW/` (or `zh_CN/`) folder into the installed `messages` folder, append `--locale zh_TW` to the shortcut target, and launch. No restart needed. See `NOTICE.md` for license terms.
