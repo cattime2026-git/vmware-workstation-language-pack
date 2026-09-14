@@ -35,7 +35,7 @@ VMware Workstation 中文化語言包下載：繁體中文 (zh-TW) 與簡體中�
 
 ## 自行產生語言包
 
-想自己跑翻譯流程（換來源語系、修術語、跟新版），請見技能 repo：`vmware-translation-skill`（含抽取 / 翻譯記憶 / 等長 patch / 檢查腳本）。
+想自己跑翻譯流程（換來源語系、修術語、跟新版），使用 [vmware-translation-skill](https://github.com/cattime2026-git/vmware-translation-skill) 翻譯中文化（含抽取 / 翻譯記憶 / 等長 patch / 檢查腳本）。
 
 ## 版權聲明
 
